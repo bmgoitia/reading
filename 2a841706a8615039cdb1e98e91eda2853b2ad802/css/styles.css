@@ -24,8 +24,8 @@ body{
 
 .imgLogo{
     display:inline-block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -111,6 +111,12 @@ body{
 
 
 @media (min-width: 500px) {
+    
+    .imgLogo{
+    width: 150px;
+    height: 150px;
+}
+    
     .lv_item img{
         width: 130px;
         height: 130px;
